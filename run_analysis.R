@@ -58,3 +58,5 @@ Exitdata <- summarise_all(Tidy, funs(mean))
 
 #Exiting the data
 write.table(Exitdata, "Finaldata.txt", row.names = FALSE)
+
+names(Exitdata)
